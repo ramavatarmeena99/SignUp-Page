@@ -1,0 +1,293 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');");
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+
+}
+.signUpPAge{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.leftPage{
+width: 35%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-color: #f2d184;
+
+}
+.leftSideCenter{
+  width:70% ;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+
+}
+.leftSideCenter nav ul{
+  list-style: none;
+}
+.listHide{
+  cursor: pointer;
+}
+
+.leftSideCenter p{
+  color: #866118;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: start;
+  padding-top: 20px;
+}
+.leftSideCenter img{
+  padding-top: 30px;
+}
+.rightPage{
+width: 65%;
+height: 100%;
+
+}
+.alreadyAMenber{
+  width: 100%;
+  height: 7vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+
+} 
+
+.signInalready{
+  cursor: pointer;
+  color: blue;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+.signUpPage{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  /* background-color: red; */
+}
+
+.centerSignUp{
+  width:40%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.centerSignUp p{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 20px;
+}
+.signUpGoogle {
+  margin-top: 10px;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+   align-items: center; 
+  justify-content: start; 
+  /* background-color: blueviolet; */
+}
+
+ .withGoogle {
+  width: 60%;
+  height: 100%;
+   display: flex;
+  flex-direction: row;
+  justify-items:  center; 
+  align-items: center; 
+    text-align: center;  
+  background-color:blue; 
+  margin-top: 20px;
+ } 
+ .withGoogle:hover{
+  background-color: rgb(86, 86, 197);
+
+ }
+ .withGoogle img{
+   width: 15%;
+   height:100%;
+   object-fit: contain;
+   margin-left: 2px;
+ }
+.loginWithGoogle{
+  width: 100%;
+  height: 100%;
+  /* background-color: rebeccapurple; */
+border: none;
+border-radius: 10px;
+}
+.loginWithGoogle {
+  width: 90%;
+  height: 100%;
+  background-color: transparent;
+  border:none;
+  color: white;
+  font-weight: 700;
+  /* border-radius: 10px; */
+  text-align:center;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+}
+.loginWithGoogle:hover{
+  background-color:transparent;
+  /* color: black; */
+  border: none;
+}
+
+.withTweetr{
+  cursor: pointer;
+  
+  margin-left: 20px;
+  margin-top: 22px;
+}
+.hiden{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.nameOrEmail{
+  width: 100%;
+  height: 70px;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.nameOption{
+  font-size: 15px;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 400px;
+  width: 100%;
+  height: 20vh;
+  text-align: start;
+  margin-left: 1px;
+}
+.nameOption p{
+  font-size: 18px;
+  font-weight: bold; 
+  margin-top: 20px;
+}
+.yourName{
+  width: 99%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: start;
+  padding-left: 10px;
+  background-color: lightgrey;
+
+}
+.yourName:hover{
+  background-color: transparent;
+  border: 3px solid lightpink;
+}
+.yourEmail{
+  width: 99%;
+  height: 40px; 
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: start;
+  padding-left: 10px;
+  background-color: lightgrey;
+}
+.yourEmail:hover{
+  background-color: transparent;
+  border: 3px solid lightpink;
+}
+.passEmailOption{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.yourNumber{
+  width: 100%;
+  height: 40px;
+background-color: lightgrey;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+padding-left: 10px;
+}
+.yourNumber:hover{
+  background-color: transparent;
+  border: 3px solid lightpink;
+}
+.password{
+  width: 100%;
+  height: 40px;
+  background-color: lightgrey;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+padding-left: 10px;
+}
+.password:hover{
+  background-color: transparent;
+  border: 3px solid lightpink;
+}
+.check{
+  width: 100%;
+  height: 55px;
+  /* background-color:chartreuse; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.checkboxs{
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.check p{
+  font-size: 15px;
+  text-align:justify;
+  padding-left: 16px;
+  font-weight: 200;
+}
+.done{
+  width: 50%;
+  height: 40px;
+  color: white;
+  background-color: #ea4c89;
+margin-top: 30px;
+/* margin-left: 20px; */
+font-size: 15px;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-left: 6px;
+}
+.done:hover{
+  background-color: lightpink;
+}
+
